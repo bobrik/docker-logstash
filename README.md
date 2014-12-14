@@ -19,3 +19,8 @@ docker run --rm -it -v /tmp/logstash.conf:/etc/logstash/logstash.conf bobrik/log
 ```
 
 Note that it takes some time for logstash to start up and shut down.
+
+## Extending
+
+See [logstash-kafka](https://registry.hub.docker.com/u/bobrik/logstash-kafka/)
+to see an example of extended image with kafka plugin installed.
